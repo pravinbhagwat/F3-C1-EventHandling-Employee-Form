@@ -1,0 +1,83 @@
+body {
+    margin: 30px 50px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.formElements {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.form-group input {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    width: 300px;
+    height: 36px;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+
+label {
+    margin: 8px 4px;
+}
+
+.button {
+    width: 130px;
+    padding: 13px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.successMsg {
+    color: green;
+}
+
+
+#employees-list{
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.emp-data{
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.emp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.delete{
+    border-radius: 20px;
+    border:none;
+    width: 150px;
+    height: 40px;
+}
